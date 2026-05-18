@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "builtenv-cna"
+version = "0.1.0"
+description = "Correlation Network Analysis framework for sustainable built environment research"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    {name = "Anson Chan"}
+]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "networkx"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["builtenv_cna*"]
