@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "builtenv-cna"
+message: "If you use this software, please cite it as below."
+type: software
+
+authors:
+  - family-names: "Chan"
+    given-names: "Anson"
+
+version: "0.1.0"
+
+date-released: "2026-05-18"
+
+repository-code: "https://github.com/AnsonChan2023/builtenv-cna"
+
+Abstract: >
+  Python-based Correlation Network Analysis (CNA) framework
+  for sustainable built environment and construction management research.
+
+Keywords:
+  - Construction management
+  - Sustainable built environment
+  - Correlation network analysis
+  - Network science
+  - Gephi
+  - BIM
