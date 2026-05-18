@@ -2,6 +2,8 @@
 
 Correlation Network Analysis (CNA) framework for sustainable built environment and construction management research.
 
+Research Paper: A global pathway to net zero buildings: a correlation network analysis of building information modelling (BIM)-based whole life carbon assessment challenges 
+
 ---
 
 # Overview
