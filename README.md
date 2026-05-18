@@ -30,7 +30,17 @@ Construction management and sustainable built environment studies commonly rely 
 - Descriptive correlation analysis: summarise mean, median, ranking and standard deviation, but does not show the system relationships among variables
 - Social Network Analysis (SNA): variables are usually about stakholders and organisations but not the variable itself
 
-However, these approaches often treat variables as isolated predictors rather than interconnected system components.
+However, these approaches often treat variables as isolated predictors rather than interconnected system components as shown in this table:
+
+ Aspect | Regression | SEM | PCA | SNA | Proposed CNA Framework |
+|---|---|---|---|---|---|
+| Relationship focus | 🎯 Predictor–outcome | 🎯 Causal pathways | 📊 Variance structure | 👥 Stakeholder relationships | 🔗 Emergent variable correlations |
+| Captures system interdependency | ⚠️ Limited | 🟡 Moderate | ⚠️ Partial | ⚠️ Social ties only | ✅ Strong |
+| Requires predefined model | ✅ Yes | ✅ Yes | ❌ No | ❌ No | ❌ No |
+| Identifies influential variables | ⚠️ Limited | 🟡 Moderate | ❌ No | ✅ Yes | ✅ Centrality metrics |
+| Detects hidden clusters/modules | ❌ No | ⚠️ Partial | ✅ Yes | ⚠️ Partial | ✅ Community detection |
+| Visualization & network analysis | ⚠️ Basic plots | ⚠️ Moderate | ⚠️ Basic plots | ✅ Network visualization | ✅ Heatmap + network + Gephi |
+| Typical use in construction research | ✅ Very common | ✅ Very common | ✅ Common | 🟡 Stakeholder-focused | 🚀 Emerging system-level approach |
 
 This project introduces a Correlation Network Analysis (CNA) framework where:
 
